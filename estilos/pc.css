@@ -1,0 +1,80 @@
+h1{
+	font-size: 1.5em;
+}
+h1,h3{
+	margin: 0;
+	padding: 0.3em 0;
+}
+h3{
+	font-size: 1em;
+}
+hgroup{
+	width: 70%;
+}
+img{
+	width: 25%;
+	max-width:70px;
+}
+img, hgroup, nav ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+nav{
+	width: 73%;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	max-width: 19%;
+	margin: 0;
+	min-width: 17%;
+	padding: 0;
+	text-align: center;
+	transition: all 1.5s;
+	width: 19%;
+}
+#uno, #dos, #tres{
+	width: 100%;
+	min-height: 70em;
+}
+#titulo{
+	margin-right: 1%;
+	padding-left: 1em;
+	width: 20%;
+}
+#titulo, nav{
+	display: inline-block;
+	vertical-align: middle;
+}
+.OpMenu{
+	height: 2em;
+	margin: 0;
+	padding-top: 1em;
+	transition: all 0.5s;
+}
+.trOp{
+	border-bottom: solid 6px #D7D7D7;
+	border-left: solid 6px transparent;
+	border-right: solid 6px transparent;
+}
+/*pseudo-selectores*/
+li:hover .trOp{
+	margin-left: 45%;
+	display: block;
+	vertical-align: bottom;
+}
+li:hover .OpMenu{
+	background: #747474;
+	border-radius: 0.2em;
+	height: 1.7em;
+	padding-top: 0.6em;
+}
+li:hover{
+	border-bottom: solid 3px #D7D7D7;
+	border-radius: 90px; 
+}
+ul:hover{
+	border-bottom: solid 2px #666666;
+}

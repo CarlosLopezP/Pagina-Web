@@ -1,0 +1,21 @@
+h1, h3{
+	border: solid 1px green;
+}
+hgroup{
+	border: solid 1px black;
+}
+nav{
+	border: solid 1px red;
+}
+ul{
+	border: solid 1px green;
+}
+li{
+	border: solid 1px blue;
+}
+a{
+	border: solid 1px orange;
+}
+#titulo{
+	border: solid 1px blue;
+}
