@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<title>Página Web</title>
 		<link href="../estilos/normalize.css" rel="stylesheet" />
-		<!--link href="../estilos/bordes.css" rel="stylesheet" /-->
+		<link href="../estilos/bordes.css" rel="stylesheet" />
 		<link href="../estilos/estandar.css" rel="stylesheet" />
 		<link href="../estilos/pc.css" rel="stylesheet" />
 	</head>
@@ -19,37 +19,22 @@
 			</div>
 			<nav>
 				<ul>
-					<li>
-						<a href="#" class="OpMenu">Opción 1</a>
-						<div class="trOp"></div>
-					</li>
-					<li>
-						<a href="#" class="OpMenu">Opción 2</a>
-						<div class="trOp"></div>
-					</li>
-					<li>
-						<a href="#" class="OpMenu">Opción 3</a>
-						<div class="trOp"></div>
-					</li>
-					<li>
-						<a href="#" class="OpMenu">Opción 4</a>
-						<div class="trOp"></div>
-					</li>
-					<li>
-						<a href="#" class="OpMenu">Opción 5</a>
-						<div class="trOp"></div>
-					</li>
+					<li><a href="/chat" class="OpMenu">Chat</a></li>
+					<li><a href="#" class="OpMenu">Opción 2</a></li>
+					<li><a href="#" class="OpMenu">Opción 3</a></li>
+					<li><a href="#" class="OpMenu">Opción 4</a></li>
+					<li><a href="#" class="OpMenu">Opción 5</a></li>
 				</ul>
 			</nav>
 		</header>
-		<section>
+		<section id="contenedor">
 			{% block contenido %}
 			{% endblock %}
 		</section>
 		<footer>
-			<div>a</div>
-			<div>a</div>
-			<div>a</div>
+			<div id="tecnologias">a</div>
+			<div id="buscar">a</div>
+			<div id="contacto">a</div>
 		</footer>
 	</body>
 </html>

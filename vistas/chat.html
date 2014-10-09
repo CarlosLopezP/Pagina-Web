@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block contenido %}
+	<section id="login">
+		<h2>Login</h2>
+		<input id="txtLogin" type="text" placeholder="Usuario" required="required" />
+		<button id="btnLogin">Iniciar</button>
+	</section>
+	<section id="chat">
+		<article id="Mensajes">
+			<div id="contMsn"></div>
+			<textarea id="mensaje" cols= "40"  rows= "4" wrap="soft"></textarea>
+			<button id="enviar">Enviar</button>
+		</article>
+		<aside id="usuariosList">
+			<h3>Usuarios Conectados</h3>
+			<ul id="listaUs">
+				<li>Bill Gates</li>
+				<li>Pepe el Toro</li>
+				<li>Yoloxóchitl Bustamante</li>
+			</ul>
+		</aside>
+	</section>
+{% endblock %}

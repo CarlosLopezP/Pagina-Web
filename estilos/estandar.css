@@ -6,34 +6,6 @@ a{
 header, footer{
 	background: #222222;
 }
-#uno{
-	 background: url("../imagenes/1.jpg") no-repeat fixed center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-#dos{
-	 background: url("../imagenes/2.jpg") no-repeat fixed center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-#tres{
-	 background: url("../imagenes/3.jpg") no-repeat fixed center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.trOp{
-	display: none;
-	height: 0;
-	margin: 0:
-	padding: 0;
-	width: 0;
+#contenedor{
+	background: grey;
 }

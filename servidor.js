@@ -24,3 +24,8 @@ app.get("/", function(req, res) {
 	res.render("index.html");
 	console.log("index enviado");
 });
+
+app.get("/chat", function(req, res){
+	res.render("chat.html");
+	console.log("chat enviado");
+});

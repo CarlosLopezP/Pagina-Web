@@ -1,7 +1,10 @@
+body{
+	height: 100%;
+}
 h1{
 	font-size: 1.5em;
 }
-h1,h3{
+h1, h2, h3{
 	margin: 0;
 	padding: 0.3em 0;
 }
@@ -35,9 +38,43 @@ nav ul li{
 	transition: all 1.5s;
 	width: 19%;
 }
-#uno, #dos, #tres{
-	width: 100%;
-	min-height: 70em;
+#btnLogin, #txtLogin{
+	display: block;
+	margin: 0.5em auto;
+}
+#contenedor{
+	height: 55em;
+	max-height: 55em;
+	
+}
+#contMsn{
+	height: 25em;
+	margin-bottom: 1em; 
+}
+#login{
+	margin: auto;
+	padding: 1em;
+	text-align: center;
+	width: 30%;
+}
+#mensaje, #enviar{
+	vertical-align: bottom;
+}
+#Mensajes{
+	width: 70%;
+	margin-right: 1%;
+}
+#Mensajes, #usuariosList{
+	display: inline-block;
+	padding: 1em;
+	vertical-align: top;
+}
+#tecnologias, #buscar, #contacto{
+	display: inline-block;	
+	max-width: 31%;
+	min-width: 29%;
+	vertical-align: top;
+	width: 30%;
 }
 #titulo{
 	margin-right: 1%;
@@ -48,33 +85,15 @@ nav ul li{
 	display: inline-block;
 	vertical-align: middle;
 }
+#txtLogin{
+	text-align: center;
+}
+#usuariosList{
+	width: 20%;
+}
 .OpMenu{
 	height: 2em;
 	margin: 0;
 	padding-top: 1em;
 	transition: all 0.5s;
-}
-.trOp{
-	border-bottom: solid 6px #D7D7D7;
-	border-left: solid 6px transparent;
-	border-right: solid 6px transparent;
-}
-/*pseudo-selectores*/
-li:hover .trOp{
-	margin-left: 45%;
-	display: block;
-	vertical-align: bottom;
-}
-li:hover .OpMenu{
-	background: #747474;
-	border-radius: 0.2em;
-	height: 1.7em;
-	padding-top: 0.6em;
-}
-li:hover{
-	border-bottom: solid 3px #D7D7D7;
-	border-radius: 90px; 
-}
-ul:hover{
-	border-bottom: solid 2px #666666;
 }

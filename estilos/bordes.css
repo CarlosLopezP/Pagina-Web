@@ -1,4 +1,4 @@
-h1, h3{
+h1, h2, h3{
 	border: solid 1px green;
 }
 hgroup{
@@ -16,6 +16,36 @@ li{
 a{
 	border: solid 1px orange;
 }
+#dos{
+	border: solid 2px green;
+}
+#chat{
+	border: solid 2px green;
+}
+#contenedor{
+	border: solid 4px red;
+}
+#contMsn{
+	border: dotted 2px blue;
+}
+#login{
+	border: solid 2px blue;
+}
+#Mensajes{
+	border: solid 2px red;	
+}
 #titulo{
 	border: solid 1px blue;
+}
+#tecnologias, #buscar, #contacto{
+	border: solid 1px white; 
+}
+#tres{
+	border: solid 2px yellow;
+}
+#uno{
+	border: solid 2px blue;
+}
+#usuariosList{
+	border: solid 2px black;
 }
