@@ -1,10 +1,6 @@
-h1, h2, h3{
-	border: solid 1px green;
-}
-hgroup{
-	border: solid 1px black;
-}
-nav{
+
+
+/*nav{
 	border: solid 1px red;
 }
 ul{
@@ -15,7 +11,7 @@ li{
 }
 a{
 	border: solid 1px orange;
-}
+}*/
 #dos{
 	border: solid 2px green;
 }
@@ -34,9 +30,7 @@ a{
 #Mensajes{
 	border: solid 2px red;	
 }
-#titulo{
-	border: solid 1px blue;
-}
+
 #tecnologias, #buscar, #contacto{
 	border: solid 1px white; 
 }

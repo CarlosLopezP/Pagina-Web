@@ -3,7 +3,7 @@ var nunjucks = require("nunjucks");
 var bodyParser = require("body-parser");
 var app = express();
 app.listen(8080);
-console.log("servidor funcionando en el puerto 8000");
+console.log("servidor funcionando en el puerto 8080");
 
 app.use(bodyParser.urlencoded({
 	extended : true

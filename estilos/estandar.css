@@ -2,7 +2,29 @@ a{
 	color: #CCCCCC;
 	display: block;
 	text-decoration: none;
+	font-family: 'Righteous', cursive;
 }
+body{
+	height: 100%;
+}
+h1{
+	font-size: 1.5em;
+}
+h1, h2, h3{
+	margin: 0 0 0 .2em;
+}
+h3,h1{
+	font-size: 1.5em;
+}
+img{
+	width: 25%;
+	max-width:70px;
+}
+img, hgroup, nav ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
 header, footer{
 	background: #222222;
 }
