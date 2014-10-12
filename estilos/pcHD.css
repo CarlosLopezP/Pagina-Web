@@ -1,0 +1,25 @@
+h1,h3{
+	font-size: 1em;
+}
+hgroup{
+	width: 65%;
+	margin: 0 0 0 .6em;
+}
+nav{
+	width: 70%;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	max-width: 19%;
+	margin: 0;
+	min-width: 17%;
+	padding: 0;
+	text-align: center;
+	transition: all 1.5s;
+	width: 19%;
+	font-size: 1.2em;
+}
+

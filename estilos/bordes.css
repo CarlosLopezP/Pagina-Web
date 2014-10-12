@@ -12,15 +12,15 @@ li{
 a{
 	border: solid 1px orange;
 }*/
-#dos{
+/*#dos{
 	border: solid 2px green;
-}
+}*/
 #chat{
 	border: solid 2px green;
 }
-#contenedor{
+/*#contenedor{
 	border: solid 4px red;
-}
+}*/
 #contMsn{
 	border: dotted 2px blue;
 }
@@ -31,15 +31,15 @@ a{
 	border: solid 2px red;	
 }
 
-#tecnologias, #buscar, #contacto{
+/*#tecnologias, #buscar, #contacto{
 	border: solid 1px white; 
-}
-#tres{
+}*/
+/*#tres{
 	border: solid 2px yellow;
 }
 #uno{
 	border: solid 2px blue;
-}
+}*/
 #usuariosList{
 	border: solid 2px black;
 }
