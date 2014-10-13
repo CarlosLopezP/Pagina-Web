@@ -1,17 +1,69 @@
 a{
-	color: #CCCCCC;
+	color:#F90;
+	font-weight:bold;
 	display: block;
 	text-decoration: none;
 	font-family: 'Righteous', cursive;
+	
+}
+a, #uno{
+	/*3D*/
+	
+	text-shadow: 0 1px 0 black,
+               0 2px 0 black,
+               0 3px 0 black,
+               0 4px 0 black,
+               0 5px 0 black,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    -webkit-text-shadow: 0 1px 0 black,
+               0 2px 0 black,
+               0 3px 0 black,
+               0 4px 0 black,
+               0 5px 0 black,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    -moz-text-shadow: 0 1px 0 black,
+               0 2px 0 black,
+               0 3px 0 black,
+               0 4px 0 black,
+               0 5px 0 black,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+      -o-text-shadow: 0 1px 0 black,
+               0 2px 0 black,
+               0 3px 0 black,
+               0 4px 0 black,
+               0 5px 0 black,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 body{
 	height: 100%;
 }
-h1{
-	font-size: 1.5em;
-}
 h1, h2, h3{
 	margin: 0 0 0 .2em;
+	
 }
 h3,h1{
 	font-size: 1.5em;
@@ -36,13 +88,15 @@ header, footer{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 }
 .tam{
 	font-size: 3em;
-	color: black;
+	/*color letras no fantasmas*/
+	color: #F90;
 	text-decoration: none;
 	font-family: 'Righteous', cursive;
+	text-align: center;
 	
 }
 #uno{
@@ -54,14 +108,21 @@ header, footer{
    	left: 10%;
    	width: 80%;
 	height: 20%;
+	/*sombritas*/
+	box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+	
+	border-radius: 1em 1em 1em 1em;
 }
-#dos img{
+/*#dos img, #tres img{
 	position: relative;
+	height: 25%;
    	left: 10%;
-   	width: 80%;
-	max-width: 80%;
-}
-
+   	width: 40%;
+	max-width: 40%;
+	
+}*/
 #btnLogin, #txtLogin{
 	display: block;
 	margin: 0.5em auto;
@@ -84,10 +145,13 @@ header, footer{
 #contacto a img{
 	max-width: 85%;
 	min-width: 85%;
+	margin-right: 1px;
+	
 }
 footer a{
-	font-size: .8em;
+	font-size: 1em;
 }
+
 #login{
 	margin: auto;
 	padding: 1em;
@@ -113,6 +177,7 @@ footer a{
 	vertical-align: middle;
 	width: 70%;
 	text-align: center;
+	
 }
 #titulo{
 	padding-left: 3em;
@@ -142,4 +207,54 @@ header{
 }
 #contenedor{
 	margin-top: 6%;
+}
+/*imagenes*/
+#scroll{
+	height: 270px;
+	width:100%;
+	position: relative;
+	overflow: hidden;
+	/*margin-left: 2.5%;*/
+}
+#scroll div{
+	height: 270px;
+    width: 2454px;
+    background:url("../imagenes/scroll.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    
+    -moz-transition:  opacity 0.5s ease-out; 
+    -o-transition: opacity 0.5s ease-out; 
+  	-webkit-transition: opacity 0.5s ease-out; 
+    -ms-transition: opacity 0.5s ease-out; 
+
+    -webkit-animation: moveSlideshow 60s linear infinite;
+    -moz-animation:    moveSlideshow 60s linear infinite;
+}
+@-webkit-keyframes moveSlideshow {
+    0% { left: 0; }
+    100% { left: -1480px; }
+   /*-1480*/
+}
+@-moz-keyframes moveSlideshow {
+    0% { left: 0; }
+    100% { left: -1480px; }
+}
+#dos{
+	position: relative;
+	top: 15%;
+   	left: 10%;
+   	width: 80%;
+	height: 30%;
+	background-color: rgba(127,107,73,0.7);
+	padding: 2em 0em 2em 0em;
+	/*sombra*/
+	box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+	
+	border-radius: 1em 1em 1em 1em;
+	
 }
