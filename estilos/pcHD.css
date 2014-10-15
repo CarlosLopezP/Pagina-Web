@@ -1,5 +1,5 @@
 h1,h3{
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 hgroup{
 	width: 65%;
@@ -20,5 +20,68 @@ nav ul li{
 	text-align: center;
 	transition: all 1.5s;
 	width: 19%;
-	font-size: 1.2em;
+	font-size: 1.5em;
+}
+#chat{
+	position: relative;
+   	top: 15%;
+   	left: 10%;
+   	width: 80%;
+}
+/*-------------hovers-------------*/
+footer div img:hover{
+	transition: .1s;
+	
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+h1:hover,h3:hover{
+	transition: .5s;
+	-moz-transform: translateX(10px) ;
+	-ms-transform: translateX(10px) ;
+	-o-transform: translateX(10px) ;
+  	-webkit-transform: translateX(10px);
+  	transform: translateX(10px) ;
+	
+}
+#titulo img:hover{
+	-webkit-filter: blur(1px);
+}
+/*------push-------------------*/
+@-webkit-keyframes push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes push {
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+nav ul li:hover, nav ul li:focus, nav ul li:active {
+  -webkit-animation-name: push;
+  animation-name: push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }

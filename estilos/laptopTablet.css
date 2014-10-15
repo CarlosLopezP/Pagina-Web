@@ -22,3 +22,9 @@ nav ul li{
 	width: 19%;
 	font-size: 1.2em;
 }
+#chat{
+	position: relative;
+   	top: 15%;
+   	left: 10%;
+   	width: 80%;
+}
